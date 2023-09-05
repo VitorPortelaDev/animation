@@ -66,6 +66,22 @@ html,body{
     margin-left: -140px;
     margin-top: -140px;
 }
+#venus{
+    margin-top: -20px;
+    margin-left: -20px;
+    height: 40px;
+    width: 40px;
+    background-color: rgb(255, 60, 0);
+    box-shadow: 0 0 34px red;
+}
+.venus,
+.venus-spin{
+    width: 370px;
+    height: 370px;
+    margin-left: -185px;
+    margin-top: -185px;
+}
+
 @keyframes spin-right{
     100%{
         transform: rotate(360deg);
@@ -74,4 +90,7 @@ html,body{
 
 .mercury-spin{
     animation: spin-right 8.8s linear infinite;
+}
+.venus-spin{
+    animation: spin-right 25.8s linear infinite;
 }
